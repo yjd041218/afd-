@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 700px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: antiquewhite;
+    min-width: 800px
+}
+
+.hed {
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 4fr 1fr;
+}
+
+.menu-list {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-self: center;
+}
+
+.menu-row {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.single:hover {
+    color: red;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+    .login {
+        margin-top: 10px
+    }
+
+}
+
+
+.btn a {
+    text-align: center;
+    width: 70px;
+    line-height: 30px;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    height: 60px;
+    background-color: red;
+}
+
+.text {
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(190, 190, 119);
+    font-family: "楷体";
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+
+    .bt {
+        cursor: pointer;
+    }
+}
+
+#mokuai {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neirong {
+    width: 250px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hang {
+    display: flex;
+    border-bottom: 1px solid red;
+    padding-bottom: 15px;
+}
+
+.hang>span {
+    font-size: 10px;
+    align-self: center;
+    color: rgb(177, 177, 174);
+    padding-left: 120px;
+
+}
+
+.hang>span:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+.huo {
+    border-left: 4px solid red;
+    padding-left: 5px;
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.warp {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    text-wrap: nowrap;
+}
+
+.weniz {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.weniz:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0 auto;
+    padding-top: 90px;
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.youlian {
+    height: 80px;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    padding-right: 40px;
+    border-right: 1px solid rgb(183, 183, 183);
+}
+
+.lianjie {
+    display: flex;
+    padding-left: 30px;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.lianjie>a {
+    padding-left: 10px;
+    color: rgb(97, 97, 97);
+}
